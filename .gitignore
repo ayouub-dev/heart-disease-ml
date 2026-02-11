@@ -22,4 +22,4 @@ models/*.pkl
 with open('heart-disease-ml/.gitignore', 'w') as f:
     f.write(gitignore)
 
-print("✅ .gitignore created")
+print(".gitignore created")
