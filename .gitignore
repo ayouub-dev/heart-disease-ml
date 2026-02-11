@@ -1,0 +1,25 @@
+gitignore = '''# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+models/*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+'''
+
+with open('heart-disease-ml/.gitignore', 'w') as f:
+    f.write(gitignore)
+
+print("✅ .gitignore created")
